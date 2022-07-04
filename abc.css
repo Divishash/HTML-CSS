@@ -1,0 +1,37 @@
+body{
+ 
+ font-style: italic;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ background-image: url("puppy.jpg");
+ background-image: no-repeat;
+ background-attachment: fixed;
+
+
+
+}
+
+h1{
+    text-align: center;
+    color: bisque;
+    border: solid 10px cadetblue ;
+    border-radius: 25px;
+    padding: 10px;
+    /*padding (gap between the border in which the content is stored top bottom bhi hoti hai*/
+    margin top: 50px;
+    margin-bottom: 50px;
+}
+
+h1:hover{
+    color: brown;
+    background-color: burlywood;
+    text-decoration: underline;
+}
+
+body:hover{
+    color: cadetblue;
+    
+}
+ .container{
+    width: 50px;
+    margin: 50px;
+ }
